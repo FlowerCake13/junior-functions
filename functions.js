@@ -8,9 +8,12 @@
  * Ex: 'Your age is either 11 or 12'
  * @param  {[number]} birthYear   Year that you were born
  * @param  {[number]} currentYear The year that this function is run
- * @return {[String]} Sample: 'Your age is either 11 or 12'
+ * @return {[String]} Sample: 'Your age is 11 or 12'
  */
-
+ 	function calculateAge(birthYear, currentYear){
+ 		return "Your age is " + (currentYear - birthYear - 1) + " or " + (currentYear - birthYear);
+ 	}
+ console.log(calculateAge(2004, 2016));
 /**
  * CHALLENGE 002: PPAP REMIX JS style
  * ------------------------------------------------------------
